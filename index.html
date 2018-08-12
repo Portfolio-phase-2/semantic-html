@@ -41,34 +41,63 @@
         </nav>
 
         <!-- pameran -->
-        <section id="pameran" class="py-5">
-            <div class="primary-overlay text-white">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h1 class="display-2 mt-5 pt-5">
-                                Ayat-ayat cinta 2
-                            </h1>
-                            <p class="lead">
-                                Fahri Abdullah (Fedi Nuril) saat ini hidup sendiri di Edinburgh, bersama
-                                asistennya Hulusi (Pandji Pragiwaksono). Fahri telah kehilangan Aisha tujuh
-                                bulan lalu, saat Aisha menjadi sukarelawan di jalur Gaza. Sejak saat itu Fahri
-                                tidak pernah lagi mendengar kabar tentang Aisha ...</p>
-                            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
-                                <i class="fa fa-arrow-right"></i>
-                                Lanjutkan...</a>
-                        </div>
-                        <div class="col-lg-6 figure-img">
-                            <img
-                                src="img/buku.jpg"
-                                width="394"
-                                alt="buku"
-                                class="img-fluid d-none d-lg-block">
-                        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="https://pbs.twimg.com/media/Cs9ViufVIAAfI_v.jpg"
+                        alt="Ayat ayat cinta 2">
+                    <div class="carousel-caption text-dark">
+                        <h3>Ayat Ayat Cinta 2</h3>
+                        <p class="text-right">Fahri Abdullah (Fedi Nuril) saat ini hidup sendiri di
+                            Edinburgh, bersama asistennya Hulusi (Pandji Pragiwaksono). Fahri telah
+                            kehilangan Aisha tujuh bulan lalu, saat Aisha menjadi sukarelawan di jalur Gaza.
+                            Sejak saat itu Fahri tidak pernah lagi mendengar kabar tentang Aisha ...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://media.suara.com/pictures/653x366/2017/10/01/91369-origami-bentuk-hati.jpg"
+                        alt="origami hati">
+                    <div class="carousel-caption text-dark">
+                        <h3>Origami Hati</h3>
+                        <p class="text-right">Dikhianati oleh seseorang yang begitu kita sayangi jelas
+                            menimbulkan luka yang begitu perih. Meski begitu belum tentu tidak ada cara
+                            untuk bisa berjuang sembuh. Terlebih ketika seseorang yang baru hadir dalam
+                            hidup dengan membawa sebentuk perasaan tulus.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://4.bp.blogspot.com/-eYJuaKLss3o/WKcS4xfTVvI/AAAAAAAAFX8/xAdS7dyYosQeOLzq2-4sDXf25O8XKbcdACLcB/w1200-h630-p-k-no-nu/surga%2Byang%2B2.jpg"
+                        alt="Surga yag tak dirindukan">
+                    <div class="carousel-caption text-dark">
+                        <h3>Surga yang tak dirindukan</h3>
+                        <p class="text-right">ahri Abdullah (Fedi Nuril) saat ini hidup sendiri di
+                            Edinburgh, bersama asistennya Hulusi (Pandji Pragiwaksono). Fahri telah
+                            kehilangan Aisha tujuh bulan lalu, saat Aisha menjadi sukarelawan di jalur Gaza.
+                            Sejak saat itu Fahri tidak pernah lagi mendengar kabar tentang Aisha ...</p>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
 
         <!-- sukrib -->
         <section id="sukrib" class="bg-dark text-white py-5">
@@ -256,5 +285,6 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
         <script src="js/navbar-fixed.js"></script>
+        <script src="js/carousel.js"></script>
     </body>
 </html>
